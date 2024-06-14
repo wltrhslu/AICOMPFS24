@@ -1,0 +1,16 @@
+# Ignore everything in the data folder
+data/**
+# But keep all folders with a .gitkeep file
+!data/**/
+!**/*.gitkeep
+
+# Ignore everything in the submissions folder
+submissions/*
+# But keep the folder itself
+!submissions/.gitkeep
+
+# Ignore all .DS_Store files created by macOS
+.DS_Store
+# Ignore all folders created by various libraries
+dqa_reports/
+lightning_logs/
